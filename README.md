@@ -3,6 +3,11 @@
 ## Project Overview
 This project focuses on cleaning and analyzing a dataset of bike buyers using Excel. The process includes data cleaning, creating pivot tables, and designing a dashboard for visualization.
 
+## Dashboard Preview
+Here is a preview of the final dashboard:
+
+![Dashboard Screenshot](dashboard.png)
+
 ## Files in the Project
 - **Excel Project Dataset.xlsx**: Contains the original bike buyers dataset.
 - **Excel Project Dataset_WorkingSheet.xlsx**: Includes the cleaned dataset, pivot tables, and dashboard.
