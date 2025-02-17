@@ -1,25 +1,46 @@
-data cleaning :
-1.create these sheets : WorkingSheet,Pivot table sheet and Dashbord sheet
-2.copy the bike_buyers sheet into the WorkingSheet
-3.we will work in the "WorkingSheet", so add filetrs to the data and check the values using the filter
-4.remove duplicates, using remove duplicates button in data slide
-5.in marital Status :replace M by Married and S by Single(crtl + H,search by column option), also in column gender:M:male,F:female
-6.change the Income column type to currency and remove additional zeros.
-7.add column for age brackets : if its under 31 "invalid" else adolescent and if >=31 its middle age.if >55 then old( so we have know 3 categories or groupe of ages that are usefull for visualisation)
+Here’s a well-structured and refined version of your steps:  
 
----pivot table sheet : 
+## **Data Cleaning & Visualization Steps**  
 
-8.create a pivot table in Pivot table sheet, set income in values with (avg)(by default it sum, and gender and the rows
-9.add Purchased Bike to columns
-10.create clustered column chart, add axes title, chart title,data table
-11.create another pivot table, put commute distance in rows and purchased Bike in the values, and columns.
-12.create a line chart for it.
-13.adjust the 10+ miles to be at te end in the chart.after each modification in the data, do a refresh.(we can do 10 Miles + instead of 10+ miles)
-14.add a new pivot table,put Age Brackets in rows, and purchased Bike in columns and values.
-15.add line chart to it.
-16.copy the last pivot table and change the age bracket to age in rows.and add a line chart to it.
-17.copy the charts in the dashbord sheet and make some adjustements in the view.
+### **1. Data Cleaning**  
+1. Create three sheets: **WorkingSheet**, **Pivot Table Sheet**, and **Dashboard Sheet**.  
+2. Copy the **Bike Buyers** dataset into the **WorkingSheet**.  
+3. Apply filters to all columns and review data values.  
+4. Remove duplicate entries using the **Remove Duplicates** option in the **Data** tab.  
+5. Standardize values:  
+   - In the **Marital Status** column, replace `M` with **Married** and `S` with **Single** (use **Ctrl + H** and select "Search by Column").  
+   - In the **Gender** column, replace `M` with **Male** and `F` with **Female**.  
+6. Convert the **Income** column to **Currency** format and remove unnecessary decimal places.  
+7. Create an **Age Brackets** column with the following categories:  
+   - **Under 31** → "Invalid"  
+   - **31 - 55** → "Middle Age"  
+   - **Over 55** → "Old"  
+   These age groups will be useful for visualization.  
 
-18.click on the first chat ,go to pivotChartAnalyze,click on Insert Slicer,choose marital status.
-19.now click on the slicer, choose report connections , and choose all the pivot table.
-20.add slicer region and educations , and the report connections
+### **2. Pivot Table Sheet**  
+8. Create a **Pivot Table** in the **Pivot Table Sheet**:  
+   - Set **Income** as the value field (change aggregation to **Average** instead of **Sum**).  
+   - Add **Gender** to the rows.  
+9. Add **Purchased Bike** as a column in the Pivot Table.  
+10. Create a **Clustered Column Chart**, and include:  
+   - **Axis Titles**  
+   - **Chart Title**  
+   - **Data Table**  
+11. Create another **Pivot Table** with:  
+   - **Commute Distance** in the rows  
+   - **Purchased Bike** in values and columns  
+12. Generate a **Line Chart** for this data.  
+13. Adjust the category labels so that "**10+ Miles**" appears at the end (rename it to **"10 Miles+"** for better sorting).  
+14. Create a new **Pivot Table** with:  
+   - **Age Brackets** in the rows  
+   - **Purchased Bike** in the values and columns  
+15. Add a **Line Chart** for the **Age Brackets** data.  
+16. Copy the last pivot table and modify it by replacing **Age Brackets** with **Age** in the rows, then create a **Line Chart** for it.  
+
+### **3. Dashboard Sheet**  
+17. Copy all charts to the **Dashboard Sheet** and adjust their layout for a clear presentation.  
+18. Click on the first chart, go to **PivotChart Analyze** → **Insert Slicer**, and select **Marital Status**.  
+19. Click on the slicer, select **Report Connections**, and link it to all pivot tables.  
+20. Add additional slicers for **Region** and **Education**, then link them using **Report Connections**.  
+
+This version improves clarity, organization, and readability while keeping the steps structured logically. 🚀
