@@ -6,7 +6,7 @@ This project focuses on cleaning and analyzing a dataset of bike buyers using Ex
 ## Dashboard Preview
 Here is a preview of the final dashboard:
 
-![Dashboard Screenshot](dashbord.png)
+![Dashboard Screenshot](dashbord.PNG)
 
 ## Files in the Project
 - **Excel Project Dataset.xlsx**: Contains the original bike buyers dataset.
